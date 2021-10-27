@@ -32,7 +32,7 @@ public class CreditConsumerTest {
         String name = "peter";
         String email = "peter@email.com";
         Integer amount = 150000; // $150.000
-        Integer quotas = 5;
+        Integer quotas = 3;
         Integer income = 1000000; // $1.000.000
         CreditConsumer consumer = new CreditConsumer(name, email, amount, quotas, income);
 
