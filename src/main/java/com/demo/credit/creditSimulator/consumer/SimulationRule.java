@@ -31,6 +31,6 @@ public class SimulationRule {
     }
 
     public boolean checkInterval(int valueToCompare, int start, int end) {
-        return (valueToCompare >= start && valueToCompare <= end);
+        return (valueToCompare > start && valueToCompare <= end);
     }
 }
